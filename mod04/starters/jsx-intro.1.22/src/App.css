@@ -1,0 +1,15 @@
+
+.img {
+  border-radius: 50%;
+  float: left;
+  clear: both;
+  margin: 10px 5px;
+}
+.btn-blue {
+  color: #fff;
+  background-color: blue;
+}
+.btn-red {
+  color: #fff;
+  background-color: red;
+}

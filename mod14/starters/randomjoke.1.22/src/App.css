@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+} 
+#root{
+  width:80%;
+  margin: 0 10%;
+}
+
+.jokebox {
+  margin: 20px;
+  height: auto;
+  width: 100%;
+  border: 1px rgb(145, 126, 126) solid;
+  border-radius: 10px;
+  text-align: right;
+  max-width: 35rem
+  
+}
+
+#joke {
+  margin: 20px;
+  text-align: left;
+}
+
+
+#punchline {
+  margin: 20px;
+  font-style: italic;
+}
+
+#newjoke {
+  margin: 20px;
+  position: relative;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  font-weight: 700;
+  font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
+  color: white;
+}

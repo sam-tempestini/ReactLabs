@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;  
+    src: local('Caveat Brush'), local('Caveat Brush'),
+        url('../fonts/CaveatBrush-Regular.ttf') format('truetype')
+}
+
+
+.from-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: 'Caveat Brush', cursive;
+}
+  
+.to-label {
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    font-size: 18pt;
+    font-family: 'Caveat Brush', cursive;
+}

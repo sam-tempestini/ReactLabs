@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple React Application</title>
+  </head>
+  <body>
+
+    <h2>Simple React Application</h2>
+    
+    <!-- We will put our React component inside this div. -->
+    <div id="root"></div>
+
+
+
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(<h2>Hello World! (w/JSX)</h2>);
+    </script>
+  </body>
+</html>
